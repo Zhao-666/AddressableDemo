@@ -1,6 +1,11 @@
 # Addressable Demo
 本项目用于练习Unity中的Addressable功能。
 
+## 学习资料
+- [Unity官方Github示例](https://github.com/Unity-Technologies/Addressables-Sample)
+- [Unity官方bilibili教学](https://www.bilibili.com/video/BV1p741167kM)
+- [bilibili讲解Addressable教程](https://www.bilibili.com/video/BV1p54y1p7Pd)
+
 ## 项目目标
 制作出三个场景，使用Addressable分别打包成三个AssetsBundle，实现按需下载更新包功能
 
