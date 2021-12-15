@@ -6,12 +6,25 @@
 
 ## 项目需求
 - 制作场景（已完成，0.5h）
-- 制作UI界面（进行中，1h）
 - 实现展示包体大小、下载进度、包体加载与卸载等功能
+    - 实现场景跳转与返回（已完成，1.5h）
+    - 实现展示包体大小弹窗（已完成，3h）
+    - 实现下载与删除包体（已完成，2h）
+- 拆分模型资源为独立包体
 
 ## 项目进度
 ### 2021-12-15
 1. 实现三个场景间的跳换（1h）
+2. 实现下载与删除包体(2h)
+3. 实现展示包体大小弹窗(2h)
+
+#### 遇到问题
+1. 使用Addressables.ClearDependencyCacheAsync()进行资源卸载时会报错：
+System.Exception: Unable to clear the cache.  AssetBundle's may still be loaded for the given key.
+
+解决方法：
+查到了问题是在调用Addressables.DownloadDependenciesAsync时，未释放返回的资源，
+在参数中传递autoReleaseHandle=true则解决了问题。
 
 ### 2021-12-14
 1. 完成三个关卡场景（0.5h）
