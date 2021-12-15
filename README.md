@@ -2,6 +2,7 @@
 本项目用于练习Unity中的Addressable功能。
 
 ## 学习资料
+- [Unity官方Addressable文档](https://docs.unity.cn/Packages/com.unity.addressables@1.18/api/UnityEngine.AddressableAssets.Addressables.html)
 - [Unity官方Github示例](https://github.com/Unity-Technologies/Addressables-Sample)
 - [Unity官方bilibili教学](https://www.bilibili.com/video/BV1p741167kM)
 - [bilibili讲解Addressable教程](https://www.bilibili.com/video/BV1p54y1p7Pd)
