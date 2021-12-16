@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Model
+  m_EditorClassIdentifier: 
+  m_GroupName: Model
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f8de5c1822ba2408abb90cc49aae2132
+  m_SerializeEntries:
+  - m_GUID: 63469a4a9413949e18045ef9a1a5586a
+    m_Address: Soldier
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8e6655ef4f5d649fca1b5202d1a4b5e7
+    m_Address: Cube
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 6d7b1b7e7d3db490081a8dd0be043876, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d9200e2c23c004b50bc3f7698b33c74b, type: 2}
+    - {fileID: 11400000, guid: 57e8fd25d02a64f0c88d84b3f9e6afc1, type: 2}
